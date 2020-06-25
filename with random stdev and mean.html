@@ -1,0 +1,188 @@
+<script>
+
+var x = 10;
+var a = [];
+var wins = 0;
+var biggestBox = 0;
+var totalOfBiggest = 0;
+var gamesPlayed = 100;
+
+
+var amountOf1 = 0
+var amountOf2 = 0
+var amountOf3 = 0
+var amountOf4 = 0
+var amountOf5 = 0
+var amountOf6 = 0
+var amountOf7 = 0
+var amountOf8 = 0
+var amountOf9 = 0
+
+
+
+function gaussian(mean, stdev) {
+    var y2;
+    var use_last = false;
+    return function() {
+        var y1;
+        if(use_last) {
+           y1 = y2;
+           use_last = false;
+        }
+        else {
+            var x1, x2, w;
+            do {
+                 x1 = 2.0 * Math.random() - 1.0;
+                 x2 = 2.0 * Math.random() - 1.0;
+                 w  = x1 * x1 + x2 * x2;               
+            } while( w >= 1.0);
+            w = Math.sqrt((-2.0 * Math.log(w))/w);
+            y1 = x1 * w;
+            y2 = x2 * w;
+            use_last = true;
+       }
+
+       var retval = mean + stdev * y1;
+       if(retval > 0) 
+           return retval;
+       return -retval;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for(i=0;i<gamesPlayed;i++){
+
+
+function randomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+mean = randomNumber(3,8)
+sdd = randomNumber(0.2,1)
+
+document.write(mean+'<br>')
+document.write(sdd+'<br>')
+
+var standard = gaussian(mean, sdd);
+
+	a = [];
+	var biggestBox = 0;
+
+	for(j=0;j<x;j++){
+	a.push(Math.round(standard()))
+		}
+
+document.write("The string is : "+a+'<br>')
+
+	for(k=0;k<x;k++){
+// cheat and find the box with the most money before you do other stuff
+		if(a[k] > biggestBox){
+			biggestBox = a[k]
+
+			
+		}
+	
+		
+
+	}
+
+
+//create a function that logs how many of each number there is
+
+
+
+//function Logger(a){
+
+
+
+
+
+	for(m=0;m<x;m++){
+
+		if (a[m]==1){amountOf1++}
+		if (a[m]==2){amountOf2++}	
+		if (a[m]==3){amountOf3++}
+		if (a[m]==4){amountOf4++}
+		if (a[m]==5){amountOf5++}
+		if (a[m]==6){amountOf6++}
+		if (a[m]==7){amountOf7++}
+		if (a[m]==8){amountOf8++}
+		if (a[m]==9){amountOf9++}
+	
+
+
+	}
+
+
+
+
+
+	totalOfBiggest = totalOfBiggest + biggestBox
+
+	document.write("The biggest box is "+biggestBox+'<br>')
+
+	for(l=0;l<x;l++){
+
+		
+
+		if(a[l] > 1){
+			var guess = a[l]
+			document.write("Your guess is: "+guess+'<br>'+'<br>')
+			l = l + 100
+
+			if(guess == biggestBox){
+				wins=wins+1
+			}
+
+			
+		}
+
+	}
+
+
+}
+
+
+
+
+
+
+document.write("You have "+wins+" wins"+'<br>')
+document.write("Your average winrate is "+ ((wins/gamesPlayed)*100) +" % "+'<br>')
+
+document.write("the average biggest box is: "+(totalOfBiggest/gamesPlayed)+'<br>')
+
+
+document.write('<br>'+'<br>')
+
+
+
+document.write(amountOf1+'<br>')
+document.write(amountOf2+'<br>')
+document.write(amountOf3+'<br>')
+document.write(amountOf4+'<br>')
+document.write(amountOf5+'<br>')
+document.write(amountOf6+'<br>')
+document.write(amountOf7+'<br>')
+document.write(amountOf8+'<br>')
+document.write(amountOf9+'<br>')
+
+document.write('<br>'+'<br>')
+
+document.write(mean+'<br>'+sdd+'<br>')
+
+
+</script>
