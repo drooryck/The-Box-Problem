@@ -5,8 +5,8 @@ var a = [];
 var wins = 0;
 var biggestBox = 0;
 var totalOfBiggest = 0;
-var gamesPlayed = 100;
-
+var gamesPlayed = 1000000;
+var boxesToCheck = 0.6 * x;
 
 var amountOf1 = 0
 var amountOf2 = 0
@@ -71,89 +71,184 @@ function randomNumber(min, max) {
 }
 
 mean = randomNumber(3,8)
-sdd = randomNumber(0.2,1)
+stdev = randomNumber(0.2,1)
 
-document.write(mean+'<br>')
-document.write(sdd+'<br>')
+//document.write(mean+'<br>')
+//document.write(stdev+'<br>')
 
-var standard = gaussian(mean, sdd);
+//take a random number from a normal distribution. The mean and stdev and uniformly random between the values above.
+var standard = gaussian(mean, stdev);
 
 	a = [];
 	var biggestBox = 0;
 
+//create an array with elements being the amount of money in the box.
 	for(j=0;j<x;j++){
 	a.push(Math.round(standard()))
 		}
 
-document.write("The string is : "+a+'<br>')
+//document.write("The string is : "+a+'<br>')
+
+
+
+
 
 	for(k=0;k<x;k++){
 // cheat and find the box with the most money before you do other stuff
 		if(a[k] > biggestBox){
 			biggestBox = a[k]
-
-			
+	
 		}
 	
-		
-
-	}
-
+}
 
 //create a function that logs how many of each number there is
 
 
+	for(l=0;l<x;l++){
 
-//function Logger(a){
-
-
-
-
-
-	for(m=0;m<x;m++){
-
-		if (a[m]==1){amountOf1++}
-		if (a[m]==2){amountOf2++}	
-		if (a[m]==3){amountOf3++}
-		if (a[m]==4){amountOf4++}
-		if (a[m]==5){amountOf5++}
-		if (a[m]==6){amountOf6++}
-		if (a[m]==7){amountOf7++}
-		if (a[m]==8){amountOf8++}
-		if (a[m]==9){amountOf9++}
+		if (a[l]==1){amountOf1++}
+		if (a[l]==2){amountOf2++}	
+		if (a[l]==3){amountOf3++}
+		if (a[l]==4){amountOf4++}
+		if (a[l]==5){amountOf5++}
+		if (a[l]==6){amountOf6++}
+		if (a[l]==7){amountOf7++}
+		if (a[l]==8){amountOf8++}
+		if (a[l]==9){amountOf9++}
 	
 
 
 	}
 
-
-
-
+//find an average biggest box
 
 	totalOfBiggest = totalOfBiggest + biggestBox
 
-	document.write("The biggest box is "+biggestBox+'<br>')
+	//document.write("The biggest box is "+biggestBox+'<br>')
 
-	for(l=0;l<x;l++){
 
-		
 
-		if(a[l] > 1){
-			var guess = a[l]
-			document.write("Your guess is: "+guess+'<br>'+'<br>')
-			l = l + 100
+//here comes your strategy. It's your turn!
 
-			if(guess == biggestBox){
-				wins=wins+1
-			}
+var playerAverage = 0;
+var playerArray = [];
+var amountPlusOne = 0;
+var amountMinusOne = 0;
+var playerTotal =0;
 
-			
-		}
+//document.write(boxesToCheck+'<br>')
 
-	}
+
+
+
+
+
+
+for(m=0;m<boxesToCheck;m++){
+
+	playerArray.push(a[m])
+	playerTotal = playerTotal + playerArray[m]
 
 
 }
+
+//document.write('<br>'+'the player array is'+playerArray+'<br>'+"the length of it is"+playerArray.length+'<br>'+'the playertotal is'+playerTotal+'<br>')
+
+
+var playerAverage = Math.round(playerTotal / playerArray.length)
+
+//document.write("The player avg is"+playerAverage+'<br>'+playerArray.length+'<br>'+"the big string length is"+a.length+'<br>')
+
+
+
+for(n=0;n<playerArray.length;n++){
+	
+	if(a[n] == playerAverage + 1  ){		
+		amountPlusOne++
+	}
+
+	if(a[n] == playerAverage - 1  ){		
+		amountMinusOne++
+	}
+
+var averageOneAway = (amountPlusOne + amountMinusOne) / 2
+}
+
+//document.write('<br>'+'amt plus one is '+amountPlusOne+' the amt minus one is '+amountMinusOne+"the avg 1 away is"+averageOneAway+'<br>')
+
+//your guess
+
+for(o=playerArray.length;o<a.length;o++){
+
+//document.write(a[o]+'<br>');
+
+
+			if(averageOneAway <= 1){
+
+
+				var guess = a[o]
+				//document.write("Your guess is: "+guess+'<br>'+'<br>')
+				o = o + 100
+			}
+
+			else if(1 < averageOneAway <= 2){
+
+				if(a[o] == playerAverage + 1){
+
+					var guess = a[o]
+					//document.write("Your guess is: "+guess+'<br>'+'<br>')
+					o = o + 100	
+
+
+				}
+			}
+			else if(2 < averageOneAway < 3){
+
+				if(a[o] == playerAverage + 2){
+					var guess = a[o]
+					//document.write("Your guess is: "+guess+'<br>'+'<br>')
+					o = o + 100	
+
+				}	
+
+			}	
+
+		}
+
+
+
+		
+
+	if(guess == biggestBox){
+			wins=wins+1
+			o=o+100
+
+
+
+
+
+
+
+			//document.write('<br>'+"AFO JE WINT WOW"+'<br>'+'<br>'+'<br>'+'<br>'+'<br>')
+		}
+
+
+
+
+		
+	//else{document.write("LOSER"+'<br>'+'<br>'+'<br>'+'<br>'+'<br>')}
+			
+		
+
+
+		
+}
+
+	
+
+
+
 
 
 
@@ -182,7 +277,7 @@ document.write(amountOf9+'<br>')
 
 document.write('<br>'+'<br>')
 
-document.write(mean+'<br>'+sdd+'<br>')
+document.write(mean+'<br>'+stdev+'<br>')
 
 
 </script>

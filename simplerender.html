@@ -5,9 +5,9 @@ var a = [];
 var wins = 0;
 var biggestBox = 0;
 var totalOfBiggest = 0;
-var gamesPlayed = 1000;
+var gamesPlayed = 10;
 
-
+var amountOf0 = 0
 var amountOf1 = 0
 var amountOf2 = 0
 var amountOf3 = 0
@@ -18,6 +18,7 @@ var amountOf7 = 0
 var amountOf8 = 0
 var amountOf9 = 0
 var amountOf10 = 0
+
 
 
 function gaussian(mean, stdev) {
@@ -71,8 +72,10 @@ var standard = gaussian(5, 0.8);
 	var biggestBox = 0;
 
 	for(j=0;j<x;j++){
-	a.push(Math.round(standard()))
+	a.push(Math.ceil(Math.random()*10))
+	
 		}
+
 
 document.write("The string is : "+a+'<br>')
 
@@ -100,7 +103,7 @@ document.write("The string is : "+a+'<br>')
 
 
 	for(m=0;m<x;m++){
-
+		if (a[m]==0){amountOf0++}
 		if (a[m]==1){amountOf1++}
 		if (a[m]==2){amountOf2++}	
 		if (a[m]==3){amountOf3++}
@@ -126,24 +129,40 @@ document.write("The string is : "+a+'<br>')
 	for(l=0;l<x;l++){
 
 		
+		if(l < 7 ){
+			if(a[l] > 8){
 
-		if(a[l] > 6){
-			var guess = a[l]
-			//document.write("Your guess is: "+guess+'<br>'+'<br>')
-			l = l + 100
+					
+				var guess = a[l]
+				document.write("Your guess is: "+guess+'<br>'+'<br>')
+				l = l + 100
 
-			if(guess == biggestBox){
-				wins=wins+1
+				if(guess == biggestBox){
+					wins=wins+1
+
+				}
+
 			}
+		}
+		
 
-			
+		else{
+			if(a[l]>15-l){
+
+				var guess = a[l]
+				document.write("Your guess is: "+guess+'<br>'+'<br>')
+				l = l + 100
+
+				if(guess == biggestBox){
+					wins=wins+1
+				}
+			}
 		}
 
 	}
 
 
 }
-
 document.write("You have "+wins+" wins"+'<br>')
 document.write("Your average winrate is "+ ((wins/gamesPlayed)*100) +" % "+'<br>')
 
@@ -153,16 +172,17 @@ document.write("the average biggest box is: "+(totalOfBiggest/gamesPlayed)+'<br>
 document.write('<br>'+'<br>')
 
 
+document.write(amountOf0+' 0'+'<br>')
+document.write(amountOf1+' 1'+'<br>')
+document.write(amountOf2+' 2'+'<br>')
+document.write(amountOf3+' 3'+'<br>')
+document.write(amountOf4+' 4'+'<br>')
+document.write(amountOf5+' 5'+'<br>')
+document.write(amountOf6+' 6'+'<br>')
+document.write(amountOf7+' 7'+'<br>')
+document.write(amountOf8+' 8'+'<br>')
+document.write(amountOf9+' 9'+'<br>')
+document.write(amountOf10+' 10'+'<br>')
 
-document.write(amountOf1+'<br>')
-document.write(amountOf2+'<br>')
-document.write(amountOf3+'<br>')
-document.write(amountOf4+'<br>')
-document.write(amountOf5+'<br>')
-document.write(amountOf6+'<br>')
-document.write(amountOf7+'<br>')
-document.write(amountOf8+'<br>')
-document.write(amountOf9+'<br>')
-document.write(amountOf10+'<br>')
 
 </script>
