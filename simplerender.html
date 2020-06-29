@@ -5,7 +5,7 @@ var a = [];
 var wins = 0;
 var biggestBox = 0;
 var totalOfBiggest = 0;
-var gamesPlayed = 10;
+var gamesPlayed = 10000000;
 
 var amountOf0 = 0
 var amountOf1 = 0
@@ -77,7 +77,7 @@ var standard = gaussian(5, 0.8);
 		}
 
 
-document.write("The string is : "+a+'<br>')
+//document.write("The string is : "+a+'<br>')
 
 	for(k=0;k<x;k++){
 // cheat and find the box with the most money before you do other stuff
@@ -129,12 +129,12 @@ document.write("The string is : "+a+'<br>')
 	for(l=0;l<x;l++){
 
 		
-		if(l < 7 ){
+		//if(l < 6 ){
 			if(a[l] > 8){
 
 					
 				var guess = a[l]
-				document.write("Your guess is: "+guess+'<br>'+'<br>')
+				//document.write("Your guess is: "+guess+'<br>'+'<br>')
 				l = l + 100
 
 				if(guess == biggestBox){
@@ -143,14 +143,14 @@ document.write("The string is : "+a+'<br>')
 				}
 
 			}
-		}
+	//	}
 		
-
+/*
 		else{
-			if(a[l]>15-l){
+			if(a[l]>14-l){
 
 				var guess = a[l]
-				document.write("Your guess is: "+guess+'<br>'+'<br>')
+				//document.write("Your guess is: "+guess+'<br>'+'<br>')
 				l = l + 100
 
 				if(guess == biggestBox){
@@ -159,6 +159,7 @@ document.write("The string is : "+a+'<br>')
 			}
 		}
 
+*/
 	}
 
 
