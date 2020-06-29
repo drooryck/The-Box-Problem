@@ -1,0 +1,67 @@
+<script>
+
+// this doc is made for calculating the chance that in an array of 100 uniformly distributed(1-100) boxes, you have one box which is 99 or 100
+
+var counterTrue = 0;
+var counterFalse = 0;
+condition=0
+
+while(condition<10000){
+
+
+	var a = [];
+	var isThere100 = false
+
+
+	for(i=0;i<100;i++){
+		a.push(Math.ceil(100*Math.random()))
+	}
+
+
+
+
+
+	for(i=0;i<100;i++){
+
+			if( a[i] == 100 || a[i] == 99){
+				var isThere100 = true
+				break;
+			}
+			else{
+				isThere100 = false
+
+			}
+
+		}
+
+	if(isThere100 == true){
+
+	counterTrue++
+	}
+
+	else{
+
+	counterFalse++
+
+	}
+
+condition = condition + 1
+}
+
+
+document.write('<br>' + counterTrue)
+document.write('<br>' + counterFalse)
+document.write('<br>')
+
+
+var totalCounter = counterTrue + counterFalse;
+
+var chance = counterTrue / totalCounter
+
+document.write("The chance of 99 or 100 is "+chance)
+
+
+
+
+
+</script>

@@ -1,0 +1,125 @@
+<script>
+
+var x = 10;
+var a = [];
+var wins = 0;
+var biggestBox = 0;
+var totalOfBiggest = 0;
+var gamesPlayed = 10000000;
+
+var amountOf0 = 0
+var amountOf1 = 0
+var amountOf2 = 0
+var amountOf3 = 0
+var amountOf4 = 0
+var amountOf5 = 0
+var amountOf6 = 0
+var amountOf7 = 0
+var amountOf8 = 0
+var amountOf9 = 0
+var amountOf10 = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for(i=0;i<gamesPlayed;i++){
+
+
+
+		a = [];
+		var biggestBox = 0;
+
+		for(j=0;j<x;j++){
+		a.push(HERE COMES THE PART WHERE YOU MAKE AN ARRAY)
+		
+			}
+
+
+	//document.write("The string is : "+a+'<br>')
+
+		for(k=0;k<x;k++){
+	// cheat and find the box with the most money before you do other stuff
+			if(a[k] > biggestBox){
+				biggestBox = a[k]
+
+				
+			}
+		
+			
+
+		}
+
+
+
+
+
+
+
+	//log how many of each number
+		for(m=0;m<x;m++){
+			if (a[m]==0){amountOf0++}
+			if (a[m]==1){amountOf1++}
+			if (a[m]==2){amountOf2++}	
+			if (a[m]==3){amountOf3++}
+			if (a[m]==4){amountOf4++}
+			if (a[m]==5){amountOf5++}
+			if (a[m]==6){amountOf6++}
+			if (a[m]==7){amountOf7++}
+			if (a[m]==8){amountOf8++}
+			if (a[m]==9){amountOf9++}
+			if (a[m]==10){amountOf10++}	
+
+
+		}
+
+
+
+
+
+		totalOfBiggest = totalOfBiggest + biggestBox
+
+		//document.write("The biggest box is "+biggestBox+'<br>')
+
+		for(l=0;l<x;l++){
+
+
+//HERE COMES YOUR STRATEGY
+		}
+
+
+}
+document.write("You have "+wins+" wins"+'<br>')
+document.write("Your average winrate is "+ ((wins/gamesPlayed)*100) +" % "+'<br>')
+
+document.write("the average biggest box is: "+(totalOfBiggest/gamesPlayed)+'<br>')
+
+
+document.write('<br>'+'<br>')
+
+
+document.write(amountOf0+' 0'+'<br>')
+document.write(amountOf1+' 1'+'<br>')
+document.write(amountOf2+' 2'+'<br>')
+document.write(amountOf3+' 3'+'<br>')
+document.write(amountOf4+' 4'+'<br>')
+document.write(amountOf5+' 5'+'<br>')
+document.write(amountOf6+' 6'+'<br>')
+document.write(amountOf7+' 7'+'<br>')
+document.write(amountOf8+' 8'+'<br>')
+document.write(amountOf9+' 9'+'<br>')
+document.write(amountOf10+' 10'+'<br>')
+
+
+</script>

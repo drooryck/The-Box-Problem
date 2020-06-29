@@ -1,39 +1,40 @@
 <script>
 
+// this doc is made for calculating the chance that in an array of 10 uniformly distributed(1-10) boxes, you have one box which is 9 or 10
 
 var counterTrue = 0;
 var counterFalse = 0;
 condition=0
 
-while(condition<10000000){
+while(condition<10000){
 
 
 	var a = [];
-	var isThere100 = false
+	var isThere10 = false
 
 
 	for(i=0;i<100;i++){
-		a.push(Math.ceil(100*Math.random()))
+		a.push(Math.ceil(10*Math.random()))
 	}
 
 
 
 
 
-	for(i=0;i<100;i++){
+	for(i=0;i<10;i++){
 
-			if( a[i] == 100 || a[i] == 99){
-				var isThere100 = true
+			if( a[i] == 9 || a[i] == 10){
+				var isThere10 = true
 				break;
 			}
 			else{
-				isThere100 = false
+				isThere10 = false
 
 			}
 
 		}
 
-	if(isThere100 == true){
+	if(isThere10 == true){
 
 	counterTrue++
 	}
@@ -57,7 +58,7 @@ var totalCounter = counterTrue + counterFalse;
 
 var chance = counterTrue / totalCounter
 
-document.write(chance)
+document.write("The chance of 9 or 10 is "+chance)
 
 
 
