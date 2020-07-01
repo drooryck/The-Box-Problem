@@ -1,0 +1,18 @@
+<script>
+
+var chance = 0;
+var n = 0;
+var b = 7;
+
+for(i=0;i<10;i++){
+
+chance += (1/10)*((7/10)**i)*((10/10)**(10-i-1));
+chance += (1/10)*((7/10)**i)*((9/10)**(10-i-1));
+chance += (1/10)*((7/10)**i)*((8/10)**(10-i-1));
+
+}
+
+
+
+document.write(chance)
+</script>

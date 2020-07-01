@@ -1,0 +1,26 @@
+<script>
+
+//c is the chance, n the amount of boxes and b the lower bound
+
+function chance(n,b){
+var c=0;
+
+for(i=1;i<n+1;i++){
+
+	for(j=0;j<(n-b);j++){
+
+	c += (1/n)*((b/n)**(i-1))*((n-j)/n)**(n-i);
+	
+	}
+
+}
+
+return c;
+
+}
+
+
+
+document.write(chance(10,8));
+
+</script>

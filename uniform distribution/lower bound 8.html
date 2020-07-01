@@ -5,7 +5,7 @@ var a = [];
 var wins = 0;
 var biggestBox = 0;
 var totalOfBiggest = 0;
-var gamesPlayed = 10000000;
+var gamesPlayed = 10000;
 
 var amountOf0 = 0
 var amountOf1 = 0
@@ -72,7 +72,7 @@ var standard = gaussian(5, 0.8);
 	var biggestBox = 0;
 
 	for(j=0;j<x;j++){
-	a.push(Math.ceil(Math.random()*10))
+	a.push(Math.ceil(Math.random()*x))
 	
 		}
 
@@ -135,7 +135,7 @@ var standard = gaussian(5, 0.8);
 					
 				var guess = a[l]
 				//document.write("Your guess is: "+guess+'<br>'+'<br>')
-				l = l + 100
+				l = l + 10000
 
 				if(guess == biggestBox){
 					wins=wins+1
