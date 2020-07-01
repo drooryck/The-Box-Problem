@@ -1,0 +1,51 @@
+<script>
+
+
+
+function randomDis(){	
+
+a=[];
+
+
+for(i=1;i<10;i++){
+	a.push(Math.random())
+
+}
+
+a.sort()
+
+a.splice(0,0,0)
+a.splice(10,0,1)
+
+
+//document.write(a+'<br>')
+b = [];
+
+for(j=0;j<10;j++){
+
+var u = Math.random()
+//document.write(u+'<br>')
+for(k=1;k<11;k++){
+	if (a[k-1]<u &&  u<a[k] ){
+		b.push(k)
+
+	}
+}
+
+}
+
+	
+return b;
+
+
+
+
+
+}
+
+for(l=0;l<5;l++){
+randomDis()
+document.write(b+'<br>')
+}
+
+</script>
