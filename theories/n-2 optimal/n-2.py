@@ -6,7 +6,7 @@ def chance(n,b):
             
     return c
 
-for n in range(4,10000,1):
+for n in range(2,1000,1):
     biggestValue = 0
     for b in range(n-4,n,1):
         if chance(n,b) > biggestValue:

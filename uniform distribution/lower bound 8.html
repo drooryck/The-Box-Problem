@@ -5,7 +5,7 @@ var a = [];
 var wins = 0;
 var biggestBox = 0;
 var totalOfBiggest = 0;
-var gamesPlayed = 10000;
+var gamesPlayed = 1000000;
 
 var amountOf0 = 0
 var amountOf1 = 0
@@ -66,16 +66,26 @@ function gaussian(mean, stdev) {
 
 for(i=0;i<gamesPlayed;i++){
 
-var standard = gaussian(5, 0.8);
+function randomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+mean = randomNumber((0.3*x),(0.8*x))
+stdev = randomNumber((0.02*x),(0.1*x))
+
+//document.write(mean+'<br>')
+//document.write(stdev+'<br>')
+
+//take a random number from a normal distribution. The mean and stdev and uniformly random between the values above.
+var standard = gaussian(mean, stdev);
 
 	a = [];
 	var biggestBox = 0;
 
+//create an array with elements being the amount of money in the box.
 	for(j=0;j<x;j++){
-	a.push(Math.ceil(Math.random()*x))
-	
+	a.push(Math.round(standard()))
 		}
-
 
 //document.write("The string is : "+a+'<br>')
 
@@ -129,8 +139,8 @@ var standard = gaussian(5, 0.8);
 	for(l=0;l<x;l++){
 
 		
-		//if(l < 6 ){
-			if(a[l] > 8){
+		//if(l < 3 ){
+			if(a[l] > 4){
 
 					
 				var guess = a[l]
@@ -143,6 +153,7 @@ var standard = gaussian(5, 0.8);
 				}
 
 			}
+		
 	//	}
 		
 /*
@@ -158,12 +169,15 @@ var standard = gaussian(5, 0.8);
 				}
 			}
 		}
-
 */
+
 	}
 
 
+
 }
+
+
 document.write("You have "+wins+" wins"+'<br>')
 document.write("Your average winrate is "+ ((wins/gamesPlayed)*100) +" % "+'<br>')
 

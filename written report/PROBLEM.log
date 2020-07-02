@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  24 JUN 2020 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  2 JUL 2020 22:12
 entering extended mode
 **./PROBLEM.tex
 (PROBLEM.tex
@@ -147,6 +147,18 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
+("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks30
+)
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-cd\tikz-cd.st
 y"
 Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
@@ -159,9 +171,9 @@ tikz.sty"
 cs.sty"
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common.tex"
-\pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen145
-\pgfutil@tempdimb=\dimen146
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
 
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common-lists.tex"))
@@ -182,18 +194,6 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
 core.sty"
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks31
-)
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
-)
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
 fsys.sty"
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
@@ -546,74 +546,6 @@ flibrarypatterns.code.tex"
 File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.code.tex"
-File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
-File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
-apes\pgflibraryshapes.geometric.code.tex"
-File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.misc.code.tex"
-File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
-apes\pgflibraryshapes.misc.code.tex"
-File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.symbols.code.tex"
-File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
-apes\pgflibraryshapes.symbols.code.tex"
-File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.arrows.code.tex"
-File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
-apes\pgflibraryshapes.arrows.code.tex"
-File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.callouts.code.tex"
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
-apes\pgflibraryshapes.callouts.code.tex"))
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshapes.multipart.code.tex"
-File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
-apes\pgflibraryshapes.multipart.code.tex"
-File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box62
-\pgfnodeparttwobox=\box63
-\pgfnodepartthreebox=\box64
-\pgfnodepartfourbox=\box65
-\pgfnodeparttwentybox=\box66
-\pgfnodepartnineteenbox=\box67
-\pgfnodeparteighteenbox=\box68
-\pgfnodepartseventeenbox=\box69
-\pgfnodepartsixteenbox=\box70
-\pgfnodepartfifteenbox=\box71
-\pgfnodepartfourteenbox=\box72
-\pgfnodepartthirteenbox=\box73
-\pgfnodeparttwelvebox=\box74
-\pgfnodepartelevenbox=\box75
-\pgfnodeparttenbox=\box76
-\pgfnodepartninebox=\box77
-\pgfnodeparteightbox=\box78
-\pgfnodepartsevenbox=\box79
-\pgfnodepartsixbox=\box80
-\pgfnodepartfivebox=\box81
-)))
-("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -764,7 +696,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 "
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count288
-\mult@box=\box82
+\mult@box=\box62
 \multicol@leftmargin=\dimen268
 \c@unbalance=\count289
 \c@collectmore=\count290
@@ -777,13 +709,33 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \postmulticols=\dimen272
 \multicolsep=\skip57
 \multicolbaselineskip=\skip58
-\partial@page=\box83
-\last@line=\box84
+\partial@page=\box63
+\last@line=\box64
 \maxbalancingoverflow=\dimen273
-\mult@rightbox=\box85
-\mult@grightbox=\box86
-\mult@gfirstbox=\box87
-\mult@firstbox=\box88
+\mult@rightbox=\box65
+\mult@grightbox=\box66
+\mult@gfirstbox=\box67
+\mult@firstbox=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
@@ -801,34 +753,14 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box103
 \@tempa=\box104
 \@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\@tempa=\box114
-\@tempa=\box115
-\@tempa=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\@tempa=\box125
 \c@minrows=\count294
 \c@columnbadness=\count295
 \c@finalcolumnbadness=\count296
 \last@try=\dimen274
 \multicolovershoot=\dimen275
 \multicolundershoot=\dimen276
-\mult@nat@firstbox=\box126
-\colbreak@box=\box127
+\mult@nat@firstbox=\box106
+\colbreak@box=\box107
 \mc@col@check@num=\count297
 ) ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
@@ -849,7 +781,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.
 sty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box128
+\ttl@box=\box108
 \beforetitleunit=\skip60
 \aftertitleunit=\skip61
 \ttl@plus=\dimen280
@@ -863,7 +795,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count301
-\l__pdf_internal_box=\box129
+\l__pdf_internal_box=\box109
 ) (PROBLEM.aux)
 \openout1 = `PROBLEM.aux'.
 
@@ -889,7 +821,7 @@ df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
 \scratchdimen=\dimen285
-\scratchbox=\box130
+\scratchbox=\box110
 \nofMPsegments=\count303
 \nofMParguments=\count304
 \everyMPshowfont=\toks49
@@ -905,7 +837,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box131
+\AtBeginShipoutBox=\box111
 Package hyperref Info: Link coloring OFF on input line 7.
 
 ("C:\Users\Droor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
@@ -940,30 +872,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Droor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Chapter 1.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
@@ -971,33 +882,264 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 \end{document}
-                    [1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+l.29 \end{itemize}
+                   [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<newplot.png, id=76, 702.625pt x 451.6875pt>
+File: newplot.png Graphic file (type png)
+<use newplot.png>
+Package pdftex.def Info: newplot.png  used on input line 47.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+[2 <./newplot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+
+ []
+
+
+Overfull \hbox (92.6865pt too wide) detected at line 155
+\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 i[][]\OT1/cmr/m/n/10 ) = 
+[] [] \OMS/cmsy/m/n/10  [][]  [][] \OT1/cmr/m/n/10 + [] \OMS/cmsy/m/n/10  []
+[]  [][]
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 239--245
+
+ []
+
+File: newplot.png Graphic file (type png)
+<use newplot.png>
+Package pdftex.def Info: newplot.png  used on input line 270.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+[7]
+<100plot.png, id=117, 702.625pt x 451.6875pt>
+File: 100plot.png Graphic file (type png)
+<use 100plot.png>
+Package pdftex.def Info: 100plot.png  used on input line 275.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+<90 100 plot.png, id=118, 702.625pt x 451.6875pt>
+File: 90 100 plot.png Graphic file (type png)
+<use 90 100 plot.png>
+Package pdftex.def Info: 90 100 plot.png  used on input line 278.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+ [8 <./100plot.png> <./90 100 plot.png>]
+<1000 plot.png, id=125, 702.625pt x 451.6875pt>
+File: 1000 plot.png Graphic file (type png)
+<use 1000 plot.png>
+Package pdftex.def Info: 1000 plot.png  used on input line 283.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+<980 1000 plot.png, id=126, 702.625pt x 451.6875pt>
+File: 980 1000 plot.png Graphic file (type png)
+<use 980 1000 plot.png>
+Package pdftex.def Info: 980 1000 plot.png  used on input line 286.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--291
+
+ []
+
+[9 <./1000 plot.png> <./980 1000 plot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
+
+ []
+
+<average biggest box.png, id=137, 702.625pt x 451.6875pt>
+File: average biggest box.png Graphic file (type png)
+<use average biggest box.png>
+Package pdftex.def Info: average biggest box.png  used on input line 349.
+(pdftex.def)             Requested size: 210.78912pt x 135.5073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--358
+
+ []
+
+[11 <./average biggest box.png>]
+<normal10.png, id=143, 702.625pt x 451.6875pt>
+File: normal10.png Graphic file (type png)
+<use normal10.png>
+Package pdftex.def Info: normal10.png  used on input line 368.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--383
+
+ []
+
+[12 <./normal10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 384--388
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 393--405
+
+ []
+
+<random.png, id=154, 702.625pt x 451.6875pt>
+File: random.png Graphic file (type png)
+<use random.png>
+Package pdftex.def Info: random.png  used on input line 406.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+[14 <./random.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
  (PROBLEM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
 Package rerunfilecheck Info: File `PROBLEM.out' has not changed.
-(rerunfilecheck)             Checksum: 24BE570EA56F45802E41DD34965E2EE2;57.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
+(rerunfilecheck)             Checksum: D3537BA5AF7EDB8424E6E17BBF197EC8;838.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
  ) 
 Here is how much of TeX's memory you used:
- 21133 strings out of 480797
- 439511 string characters out of 2895575
- 702182 words of memory out of 3000000
- 36703 multiletter control sequences out of 15000+200000
- 541134 words of font info for 48 fonts, out of 3000000 for 9000
+ 19411 strings out of 480797
+ 386376 string characters out of 2895575
+ 625064 words of memory out of 3000000
+ 34970 multiletter control sequences out of 15000+200000
+ 549264 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,6n,86p,488b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,6n,86p,506b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecbx1440.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecrm1000.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on PROBLEM.pdf (2 pages, 35919 bytes).
+ecbx1000.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1200.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Droor\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Droor\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Droor\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Us
+ers\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.
+pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1200.pk> <C:\Users\Droor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1728.pk><C:/Users/Droor/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Droor/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Droor/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Droor/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/Droor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Users/Droor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><C:/Users/Droor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb>
+Output written on PROBLEM.pdf (15 pages, 246199 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

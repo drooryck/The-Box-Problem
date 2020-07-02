@@ -1,11 +1,11 @@
 <script>
 
-var x = 10;
+var x = 100;
 var a = [];
 var wins = 0;
 var biggestBox = 0;
 var totalOfBiggest = 0;
-var gamesPlayed = 10**5;
+var gamesPlayed = 100000;
 
 var amountOf0 = 0
 var amountOf1 = 0
@@ -19,6 +19,7 @@ var amountOf8 = 0
 var amountOf9 = 0
 var amountOf10 = 0
 
+var optimal = x-2
 
 
 
@@ -28,7 +29,7 @@ function randomDis(){
 a=[];
 
 
-for(i=1;i<10;i++){
+for(i=1;i<x;i++){
 	a.push(Math.random())
 
 }
@@ -36,17 +37,17 @@ for(i=1;i<10;i++){
 a.sort()
 
 a.splice(0,0,0)
-a.splice(10,0,1)
+a.splice(x,0,1)
 
 
 //document.write(a+'<br>')
 b = [];
 
-for(j=0;j<10;j++){
+for(j=0;j<x;j++){
 
 var u = Math.random()
 //document.write(u+'<br>')
-for(k=1;k<11;k++){
+for(k=1;k<x+1;k++){
 	if (a[k-1]<u &&  u<a[k] ){
 		b.push(k)
 
@@ -105,7 +106,7 @@ var a = b;
 //function Logger(a){
 
 
-
+/*
 
 
 	for(n=0;n<x;n++){
@@ -124,7 +125,7 @@ var a = b;
 
 	}
 
-
+*/
 
 
 
@@ -135,8 +136,8 @@ var a = b;
 	for(o=0;o<x;o++){
 
 		
-		if(o < 6 ){
-			if(a[o] > 8){
+		//if(o < 6 ){
+			if(a[o] > 5){
 
 					
 				var guess = a[o]
@@ -149,9 +150,9 @@ var a = b;
 				}
 
 			}
-		}
+	//	}
 		
-
+/*
 		else{
 			if(a[o]>14-o){
 
@@ -164,7 +165,7 @@ var a = b;
 				}
 			}
 		}
-
+*/
 
 	}
 
