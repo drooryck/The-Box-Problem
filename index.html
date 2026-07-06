@@ -1,0 +1,41 @@
+cat > index.html <<'EOF'
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Box Problem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+      }
+
+      .pdf {
+        width: 100%;
+        height: 100vh;
+        border: 0;
+      }
+
+      .fallback {
+        padding: 1rem;
+        font-family: system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <object
+      class="pdf"
+      data="written%20report/PROBLEM.pdf"
+      type="application/pdf"
+    >
+      <div class="fallback">
+        <p>
+          Your browser could not display the PDF inline.
+          <a href="written%20report/PROBLEM.pdf">Open the report PDF</a>.
+        </p>
+      </div>
+    </object>
+  </body>
+</html>
+EOF
